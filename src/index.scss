@@ -15,6 +15,7 @@ button:focus {
 }
 
 .todo {
+  display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,6 +35,11 @@ button:focus {
     border-radius: 5px 0px 0px 5px;
     border-right: 1px solid #f1f1f1;
     padding: 60px 20px;
+  }
+
+  &__tasks {
+    flex: 1;
+    padding: 60px;
   }
 }
 
